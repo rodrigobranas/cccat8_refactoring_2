@@ -1,7 +1,7 @@
 import { validate } from "../src/v2/validate";
 
 test("Deve validar o cpf válido que tem dígito maior de zero", function () {
-	const isValid = validate("259.556.978-37");
+	const isValid = validate("317.153.361-86");
 	expect(isValid).toBeTruthy();
 });
 
